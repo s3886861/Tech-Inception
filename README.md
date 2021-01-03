@@ -1,2 +1,2 @@
-# Group33
+# Tech Inception
 Our Group Projects
