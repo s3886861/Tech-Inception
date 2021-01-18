@@ -1970,10 +1970,10 @@ input, select, textarea {
 				opacity: 0;
 			}
 
-			@media screen and (max-width: 740px) {
+			@media screen and (max-width: 750px) {
 
 				#main > .panel {
-					padding: 4em 4em 4em 4em;
+					padding: 5em 5em 5em 5em;
 				}
 
 			}
@@ -2006,7 +2006,7 @@ input, select, textarea {
 					-webkit-flex-shrink: 0;
 					-ms-flex-shrink: 0;
 					flex-shrink: 0;
-					width: 28em;
+					width: 30em;
 					height: 100%;
 				}
 
