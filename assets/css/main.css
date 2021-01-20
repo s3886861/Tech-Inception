@@ -9,7 +9,7 @@
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, acronym, address, big, cite,
+pre,  abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
@@ -27,14 +27,39 @@ section, summary, time, mark, audio, video {
 }
 
 a {
-       color:#2B2D42;  	
+	color:#2B2D42;
 }
 
 a:hover{
 	color: #355B97;
 }
 
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+	content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
 
+.collapsible {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+
+.collapsible-target {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #EDF2F4;
+}
 
 p {
 	color: #2B2D42;
@@ -1611,8 +1636,7 @@ input, select, textarea {
 		transition: background-color .25s ease-in-out;
 		-webkit-appearance: none;
 		display: inline-block;
-		background-color: #222222;
-		color: #EBEBEB;
+		background-color: #EDF2F4;
 		border: 0;
 		cursor: pointer;
 		outline: 0;
@@ -1624,7 +1648,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #333333;
+			background-color: #FFFFFF;
 		}
 
 		input[type="button"]:active,
