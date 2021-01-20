@@ -61,7 +61,7 @@ a:hover{
   background-color: #EDF2F4;
 }
 
-p {
+p, li, i {
 	color: #2B2D42;
 }
 
