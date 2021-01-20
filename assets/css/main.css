@@ -26,6 +26,16 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+a {
+       color:#2B2D42;  	
+}
+
+a:hover{
+	color: 
+}
+
+
+
 p {
 	color: #2B2D42;
 }
