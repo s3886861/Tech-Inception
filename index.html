@@ -507,26 +507,37 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 						</article>
 
 						<article id="project" class="panel">
-							<header>
-								<h1 style="text-align:center;">Project Idea</h1>
-							</header>
-							<div>
-                                                        <br>
-								<h1 style="text-align:center;"> <b> Caffeina </h1>
-								<h2 <b> Overview </h2>
-								<p> Caffeina is a user-friendly application to monitor water intake based on caffeine consumed for the fitness and health-conscious individual. Conway (2020) states that coffee is one of the most popular drinks consumed worldwide, the goal is to ensure that users are keeping up with recommended water intake to compensate for the diuretic effect that caffeine can cause. This ensures optimum health and hopefully relieves any guilt of caffeine consumption for the health conscious. Caffeina will be designed to be user friendly and simplistic, not wanting to add to your health routine, but enhance it. It will provide the user with notifications and rewards to help keep them on track and motivated to continue using the application. </p>
-								<p> 
-									<h2 <b> Motivation </h2>
-								<p> Caffeina was inspired by the developer’s love affair with coffee and her interest in wearable technology and fitness. The goal was to create a user friendly application to seamlessly integrate into the user's daily fitness and health routine. She was motivated by the idea that technology can enhance the users' journey to a healthy lifestyle as well as enhance their overall wellbeing. She, along with the development team, wanted to ensure that the application use did not feel like a chore for the user, but was a fun enhancement to their lifestyle. </p>
-								<p>
-                                                        <h2 <b> Description </h2>
-								<h3 <b> <i> The Application </i> </h3>	
-								<p> Caffeina will be available on either iOS or Android and can be downloaded for free from your respective app store. Using a smart device, connected to the internet, simply download the application and create an account. To simplify the account creation process, it can be done one of two ways, either linking an existing account from Facebook, Google and Apple or by manually entering the required data into the respective fields. If the user decides to keep the account separate from pre-existing accounts, a valid email address and a strong password will be required. On successful login, three additional questions will present to the user, such as, gender, height and weight. This will help personalise the account and increase the accuracy of the data that is sent to the user - in the form of a caffeine consumption calculator. </p>
-								<br>
-								<p>   </p>
-								<p>   </p>
-								<p>   </p>
-							</div>
+						<header>
+						<h1 style="text-align:center;">Project Idea</h1>
+						</header>
+						<div>
+                                                <br>
+						<h1 style="text-align:center;"> <b> Caffeina </h1>
+						<h2 style="text-align:center;"> <i> For the love of coffee </i> </h2>	
+						<br>
+						<h2 <b> Overview </h2>
+						<p> Caffeina is a user-friendly application to monitor water intake based on caffeine consumed for the fitness and health-conscious individual. Conway (2020) states that coffee is one of the most popular drinks consumed worldwide, the goal is to ensure that users are keeping up with recommended water intake to compensate for the diuretic effect that caffeine can cause. This ensures optimum health and hopefully relieves any guilt of caffeine consumption for the health conscious. Caffeina will be designed to be user friendly and simplistic, not wanting to add to your health routine, but enhance it. It will provide the user with notifications and rewards to help keep them on track and motivated to continue using the application. </p>
+						<p> 
+						<h2 <b> Motivation </h2>
+						<p> Caffeina was inspired by the developer’s love affair with coffee and her interest in wearable technology and fitness. The goal was to create a user friendly application to seamlessly integrate into the user's daily fitness and health routine. She was motivated by the idea that technology can enhance the users' journey to a healthy lifestyle as well as enhance their overall wellbeing. She, along with the development team, wanted to ensure that the application use did not feel like a chore for the user, but was a fun enhancement to their lifestyle. </p>
+						<p>
+						<h2 <b> Description </h2>
+						<h3 <b> <i> The Application </i> </h3>	
+						<p> Caffeina will be available on either iOS or Android and can be downloaded for free from your respective app store. Using a smart device, connected to the internet, simply download the application and create an account. To simplify the account creation process, it can be done one of two ways, either linking an existing account from Facebook, Google and Apple or by manually entering the required data into the respective fields. If the user decides to keep the account separate from pre-existing accounts, a valid email address and a strong password will be required. On successful login, three additional questions will present to the user, such as, gender, height and weight. This will help personalise the account and increase the accuracy of the data that is sent to the user - in the form of a caffeine consumption calculator. </p>
+						<p> Once logged in, the first page that will appear to the user will be the coffee selection page. This page will contain three interactive lists that are titled, Caffè, Milk and Sugar. The Caffè list will contain common types of coffees such as Espresso, Ristretto, Instant, Caffè Latte, Flat White, Cappuccino, Mocha and Americano. As the user selects the desired type of coffee, the ‘Milk’ list will become active. This only occurs if the user selects a coffee that contains a milk-based product. The user can then select what type of milk they want, low-fat, full cream, almond, coconut and so on. As the ‘Milk’ is selected the application will then ask the user if they would like sugar, in a simple yes or no icon. Lastly the user will be able to select the size of the drink they are consuming, such as Espresso, Cappuccino, Latte, even Venti and Grande. </p>
+						<p> On completion of the selected item, the application will generate a coffee icon in the middle of the page, which has been programmed to allow easy user interaction. For instance, double tapping the icon, indicates that the user has ordered a double shot coffee. Don’t feel like caffeine today, swipe the icon to the left to specify Decaf. Decided to have a late afternoon coffee but don’t want to be up all night, hold the icon down until it flashes and then slide down, selecting half strength.</p>
+						<p> Another amazing feature is the automatic caffeine to rehydration tally. This indicates how much water the user needs to consume to level out the diuretic effect that coffee can have on the human body. Located at the top of the page, are small coffee cups that indicate how many coffees you have consumed that day. By simply tapping on the icon, it shows the user how much water they need to consume. Once the water has been consumed, the user can tick off the cup and it will fade indicating that this challenge has been completed. Don’t worry, if you forget to drink the required amount of water in the specified time period, a push notification will be sent to your phone to remind you. </p>
+						<p> For the application to work flawlessly, the caffeine to water consumption needs to be regulated by a formula. For every 100mg of caffeine consumed an additional cup of water (250ml) should be consumed to compensate for the diuretic effect (SFGATE 2018). The following example will provide an insight on how this is calculated on the server side of the application.</p>
+						<p> 1 x Espresso (shot only - 30ml) = 63.6mg of caffeine </p>							
+            					<p> 63.6 ÷ 100 = 0.636 </p>
+ 					  	<p> 0.636 * 250mL = 159mL </p>
+						<p> Based on this example, the consumer will need to consume 0.7 cups of water to remain hydrated after consuming an Espresso. In order to display this information to the user in an easy to read and interpret format, cups will be either display in a half or full capacity, equating to, 1 x Espresso = 1 cup of water.</p>  
+						<p> The application will also be able to provide a statistical summary for the user of their coffee consumption filtered daily, weekly, or monthly. Using this data, the application can provide feedback to the user warning them if they have consumed too much coffee over a certain period. </p>
+			`			<br>
+						<p>  </p>
+						<p>  </p>
+						<p>  </p>
+						</div>
 						</article>
 
 					</div>
