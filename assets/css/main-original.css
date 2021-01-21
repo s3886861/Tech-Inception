@@ -9,7 +9,7 @@
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre,  abbr, acronym, address, big, cite,
+pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
@@ -23,64 +23,11 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
-}
-.left{
-	padding-left: 100px;
-	padding-bottom: 25px;
-	float: top;
-	float: left;
-}
-.right{
-	padding-right: 100px;
-	padding-bottom: 25px;
-	float: top;
-	float: right;
-}
-a {
-	color:#2B2D42;
-}
-
-a:hover{
-	color: #355B97;
-}
-
-.collapsible:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: white;
-  float: right;
-  margin-left: 5px;
-}
-.active:after {
-	content: "\2796"; /* Unicode character for "minus" sign (-) */
-}
-
-.collapsible {
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-}
-
-.collapsible-target {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #EDF2F4;
-	border-top: 0;
-}
-
-p, li, i {
-	color: #2B2D42;
-}
+	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+	display: block;}
 
 body {
 	line-height: 1;
@@ -1574,7 +1521,6 @@ input, select, textarea {
 
 	section, article {
 		margin-bottom: 3em;
-		background-color: #EBEBEB;
 	}
 
 		section > :last-child, section:last-child, article > :last-child, article:last-child {
@@ -1648,8 +1594,8 @@ input, select, textarea {
 		transition: background-color .25s ease-in-out;
 		-webkit-appearance: none;
 		display: inline-block;
-		background-color: #EDF2F4;
-		font-size: 1em;
+		background-color: #222222;
+		color: #ffffff;
 		border: 0;
 		cursor: pointer;
 		outline: 0;
@@ -1661,7 +1607,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #FFFFFF;
+			background-color: #333333;
 		}
 
 		input[type="button"]:active,
@@ -1669,7 +1615,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #193250;
+			background-color: #444444;
 		}
 
 		input[type="button"].alt,
@@ -1832,7 +1778,7 @@ input, select, textarea {
 		#nav a {
 			position: relative;
 			display: inline-block;
-			color: #EBEBEB;
+			color: #ffffff;
 			width: 1em;
 			height: 1em;
 			line-height: 0.9em;
@@ -1861,7 +1807,7 @@ input, select, textarea {
 				left: 50%;
 				bottom: -0.75em;
 				margin-left: -0.5em;
-				border-bottom: solid 0em #EBEBEB;
+				border-bottom: solid 0em #ffffff;
 				border-left: solid 0.5em transparent;
 				border-right: solid 0.5em transparent;
 				-moz-transition: border-bottom-width .25s ease-in-out;
@@ -1874,7 +1820,7 @@ input, select, textarea {
 				display: block;
 				position: absolute;
 				background: #222222;
-				color: #EBEBEB;
+				color: #ffffff;
 				top: -2.75em;
 				font-size: 0.3em;
 				height: 2.25em;
@@ -2001,7 +1947,7 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		width: 100%;
-		background: #EBEBEB;
+		background: #ffffff;
 		box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.25);
 		-moz-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
 		-webkit-transition: min-height 0.5s ease-in-out, max-height 0.5s ease-in-out;
@@ -2103,7 +2049,7 @@ input, select, textarea {
 						height: 2.75em;
 						background: #000;
 						background: rgba(0, 0, 0, 0.75);
-						color: #EBEBEB;
+						color: #ffffff;
 						text-align: center;
 						line-height: 2.75em;
 						font-size: 1.5em;
