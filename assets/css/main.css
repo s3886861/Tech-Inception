@@ -2248,6 +2248,7 @@ input, select, textarea {
 				margin-left: 1em;
 				border-left: solid 1px rgba(255, 255, 255, 0.25);
 				line-height: 1;
+				color: white;
 			}
 
 				#footer .copyright li:first-child {
